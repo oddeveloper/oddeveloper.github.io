@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>oddeveloper portfolio</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -29,12 +30,12 @@
         <a href="#developer">어떤 개발자인가?</a><br/>
         </p>
     </header>
-    <section>
+    <section id="contents">
         <h1>About</h1>
         <p>
-            안녕하세요. 김대옹입니다.
-            저는 소프트웨어 엔지니어 6년차로 최근까지 Java, Spring, Vert.x, MySQL, RabbitMQ와 같은 기술을 사용하여 스마트홈 플랫폼 관리자 웹 서비스, Siddhi기반 룰엔진 플랫폼, Iotivity기반 OCF 클라우드 서버 쪽을 개발, 유지보수 해왔습니다.
-            이전에는 Ruby, Ruby on Rails, AWS, Python, Flask, MySQL와 같은 기술을 사용하여 온라인 중고장터, 차량이력관리와 같은 서비스 등을  웹, 모바일 형태로 개발 및 유지보수 해온 경험을 가지고 있습니다.
+            안녕하세요. 김대옹입니다.</br>
+            저는 소프트웨어 엔지니어 6년차로 최근까지 Java, Spring, Vert.x, MySQL, RabbitMQ와 같은 기술을 사용하여 스마트홈 플랫폼 관리자 웹 서비스, Siddhi기반 룰엔진 플랫폼, Iotivity기반 OCF 클라우드 서버 쪽을 개발, 유지보수 해왔습니다.</br>
+            이전에는 Ruby, Ruby on Rails, AWS, Python, Flask, MySQL와 같은 기술을 사용하여 온라인 중고장터, 차량이력관리와 같은 서비스 등을  웹, 모바일 형태로 개발 및 유지보수 해온 경험을 가지고 있습니다.</br>
         </p>
         <h3 id="values"><b>개발자에 대한 가치관</b></h3>
         <p>
@@ -48,11 +49,28 @@
             마지막으로 개발자는 자신이 현재 가지고 있는 기술적 능력과 할 수 있는것과 할 수 없는 것의 가능성을 구분할 줄 아는 지혜가 필요하다고 생각합니다.<br/>
             그리고 이러한 자질들을 통해서 첫째는 소프트웨어를 이용하는 사용자에게 보다 나은 삶의 가치를 제공하는 것, 둘째는 함께 만들었던 동료들과 서로 성장해 나갈 수 있는 원동력을 제공해주는 것이 개발자로서의 삶과 목표라고 생각합니다.
         </p>
-        <h3 id="growth-history"><b>성장과</b></h3>
+        <h3 id="growth-history"><b>성장과정</b></h3>
+        <p>
+            처음 개발을 경험했을 때는 군대에서 Java, Spring 기반으로 웹을 개발해오면서 입니다.<br/>
+            PHP, Java, JSP와 같은 기존에 개발된 소프트웨어들을 유지보수 하면서 웹이 돌아가는 방식과 Struts, Spring, Ibatis등을 사용하여 신규 소프트웨어를 서비스를 설계하고 개발, 배포 및 유지보수 하는 과정까지 간접적으로 경험해 보았습니다.<br/><br/>
+
+            그리고 벤처, 중견기업 등의 아르바이트와 인턴활동을 통해서 스마트폰의 등장으로 나온 모바일 앱(Android)과 Java, Spring 웹, 다수의 기업들이 가지고 있는 API를 안정적으로 유지, 관리할 수 있는 플랫폼을 개발 및 유지보수 해볼 수 있었습니다.<br/><br/>
+
+            이후 온라인 중고장터 관련 스타트업에서는 Python, Flask기반에서 A/B테스트나 사용자 및 알림 관련 API를 개선 및 추가하는 역할을 맡아왔고,<br/>
+            차량이력관리 서비스를 하는 스타트업에서는 Ruby, Ruby on Rails, AWS기반으로 설계, 개발, 테스트, 배포, 유지보수하는 것까지 직접적으로 경험해 볼 수 있었습니다.<br/><br/>
+
+            최근까지는 IoT 관련하여 Java, Spring, Vert.x로 룰엔진이나, 장치간의 연결을 중개하는 클라우드 플랫폼, 스마트홈 플랫폼 관리자 웹 등을 개발해 왔습니다.<br/><br/>
+
+            지금까지 개발자로서 웹을 기반으로 시작해왔지만, 스타트업과 같은 환경에서는 서버와 화면을 가리지 않고 개발을 해왔습니다.<br/>
+            이후 서버 개발자로 성장하고자 IoT 관련 플랫폼 등을 통해 역량을 키워왔습니다.<br/><br/>
+
+            실무에서는 인프라 환경을 크게 다뤄보지 못했지만, 업무범위가 다양한 경우 필요한 환경을 설정하거나, 문제가 되는 이슈 등을 해결해 보았습니다.<br/>
+            테스트나 코드를 개선해 나가는 경우, Ruby는 Rspec을 활용하여 ActiveRecord로 설계시 기능을 추가하거나 개선해 나가는 작업을 했으며, Java는 개인 프로젝트나 일부 회사 내에서 진행되는 프로젝트 일부에 TDD를 진행하면서 리팩토링을 경험해 보았습니다.<br/><br/>
+        </p>
         <h3 id="prosandcons"><b>장단점</b></h3>
         <h3 id="developer"><b>어떤 개발자인가?</b></h3>
     </section>
 </div>
-<script src="javascripts/scale.fix.js"></script>
+<script src="../javascripts/scale.fix.js"></script>
 </body>
 </html>
